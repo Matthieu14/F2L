@@ -1,0 +1,77 @@
+    <!--#include virtual="entete.html" -->
+    <a href="offres.shtml">
+		<div id="offres">
+			<div>
+				<h2>Version gratuite:</h2>
+					<p>HTML, CSS, LUA, Python.</p>
+					<p>0 €</p>
+				</div>
+			<div>
+				<h2>Version pro:</h2>
+					<p>Contenu gratuit + JS, AJAX, PHP, mySQL, exercices et certification.</p>
+					<p>30€ / mois avec réduction de -20% pour payment de groupe de plus de 5 utilisateurs</p>
+			</div>
+			<div>
+				<h2>Version premium:</h2>
+				<p>Contenu pro + Ruby, .NET, NODE.js et assistance personnelle.</p>
+				<p>50€ / mois</p>
+			</div>
+		</div>
+	</a>
+    <div id="left">
+        <div id="divimg">
+			<img id="img" src="Ressources/img0.jpg" alt="image d'acceil">
+			<img id="leftarrow" onClick="changeBackImage();" src="Ressources/leftarrow.png" alt="previous">
+            <img id="rightarrow" onClick="changeImage();" src="Ressources/rightarrow.png" alt="next">
+        </div>
+        <div id="description">
+            <h3 style="display: initial">Free to learn :<br/></h3>
+            <p style="display: initial">Le programme de formation Free To Learn a pour but de vous enseigner le devellopement web utilisant les differentes technologies telles que: HTML, CSS, JS, PHP, mySQL... </p>
+            <h3 style="display: none">Déroulement d'une formation :<br/></h3>
+            <p style="display: none">Les formations altene cours et exercices pratiques se passant directement en ligne, encadrés et corrigés à distance par des professionels.</p>
+            <h3 style="display: none">Certification :<br/></h3>
+            <p style="display: none">Une certification officiel vous sera remis au passage d'un examen de fin de formation.</p>
+        </div>
+    </div>
+    <div id="right">
+        <a href="formations.shtml">
+			<div class="article">
+                <h3>HTML5 devient une recommandation du W3C.</h3>
+                <p>HTML5, c’est enfin officiel. Le W3C a pris son temps pour l’annoncer, bien que ce langage web soit désormais très utilisé. Venez donc suivre la nouvelle formation HTML 5.</p>
+            </div>
+        </a>
+        <a href="formations.shtml">
+            <div class="article">
+                <h3>De nouveaux cours gratuits.</h3>
+                <p>Les cours de Python et de LUA sont devenus gratuit, venez les découvrir dès maintenant.</p>
+            </div>
+        </a>
+        <div class="article">
+            <h3>Suivez-nous sur les réseaux sociaux:</h3>
+            <a href="http://www.facebook.com" target="blank">
+                <img src="Ressources/facebook.png" alt="facebook">
+            </a>
+            <a href="http://www.twitter.com" target="blank">
+                <img src="Ressources/twitter.png" alt="twitter">
+            </a>
+            <a href="http://www.linkedin.com" target="blank">
+                <img src="Ressources/linked.png" alt="linkedin">
+            </a>
+            <h3>
+                Dernière activitée:
+            </h3>
+            <a href="http://www.twitter.com" target="blank">
+                <table id="twet">
+                    <tr>
+                        <td>
+                            <img src="Ressources/twitter.png" alt="twiter">
+                        </td>
+                        <td>
+							<p>@allthedB: Le cour sur le Python m'a été très utile merci !</p>
+                        </td>
+                    </tr>
+                </table>
+            </a>
+        </div>
+    </div>
+    <!--#include virtual="pieddepage.html" -->

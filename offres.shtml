@@ -1,0 +1,124 @@
+   <!--#include virtual="entete.html" -->
+  <div id="contenu">
+  <h2>Comparatif des offres</h2>
+  <h3>Description des différentes offres</h3>
+    <pre>
+    Ici vous pouvez découvrir ce que chaque offre(free,pro,premium) propose ,en effet sur Free to Learn nous vous proposons 3 types d'offre
+ avec l'offre vous apprendrez gratuitement les bases de chaque formation tandis que avec l'offre pro vous irez plus loin avec nos cours plus
+ poussez moyennant une dépenses et enfin avec l'offre premium vous apprendrez tout des formations proposées sur notre site Free to Learn.
+
+    Free to Learn vous propose des cours concoctés par des professeurs agrégés affectés dans l'enseignement supérieur.
+    Découvrez si-dessous ce que chaque offre de Free to Learn vous propose comme formation et le coût associé à cette formation.
+  </pre>
+  <h3>Disponibilité et coût des formations selon l'offre</h3>
+
+  <h4>Offre Free:</h4>
+  <pre>
+    Dans l'offre Free vous pourrez découvrir les bases des différentes formations proposées ce qui vous permettra d'acquérir un niveau
+  suffisant pour pouvoir vous débrouiller dans des projets relativements simples mais vous ne pourrez pas réaliser des projets avec un
+  niveau plus élevé. Cette offre est gratuite ce qui la rend accessible au grand public.
+</pre>
+
+  <h4>Offre Pro:</h4>
+  <pre>
+    Dans l'offre Pro vous pourrez approfondir vos connaissances dans les différentes formations proposées ainsi vous apprendrez comment gérez
+  et réaliser un projet bien plus difficile et bien plus important.
+  </pre>
+
+  <h4>Offre Premium:</h4>
+  <pre>
+    Dans l'offre Premium vous commencerez par apprendre les mêmes connaissances que dans l'offre Pro la différence notable
+  est que l'offre premium inclus un service vous permettant de rentrez en contact avec nos professeurs pour leur poser vos
+  questions personnalisés au sujet de votre projet ainsi vous pourrez réussir n'importe lequels de vos projet.
+  </pre>
+  <h4>Formation disponible selon l'offre choisie</h4>
+  <table border=5 cellspacing=0 cellpadding=0>
+    <thead>
+      <tr id="tr1">
+        <th id="th3" width=20%>offres/formations</th >
+          <th width=20%>Free</th>
+          <th width=20%>Pro</th>
+          <th width=20%>Premium</th>
+        </tr >
+      </thead>
+
+      <tfoot>
+        <tr id="tr2">
+          <th id="tf4" width=20%><a>PRIX</a></th >
+            <td width=20%>0 €</td>
+            <td width=20%>30 €/mois</td>
+            <td width=20%>50 €/mois</td>
+          </tr>
+        </tfoot>
+
+        <tbody>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_CSS.shtml">CSS</a></td >
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_HTML.shtml">HTML</a></td >
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_Python.shtml">Python</a></td >
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_LUA.shtml">LUA</a></td >
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_Javascript.shtml">Javascript</a></td >
+            <td width=20%></td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_PHP.shtml">PHP</a></td >
+            <td width=20%></td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_mySQL.shtml">mySQL</a></td >
+            <td width=20%></td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_Ajax.shtml">Ajax</a></td >
+            <td width=20%></td>
+            <td width=20%>✔</td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_Ruby.shtml">Ruby</a></td>
+            <td width=20%></td>
+            <td width=20%></td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_.NET.shtml">.NET</a></td >
+            <td width=20%></td>
+            <td width=20%></td>
+            <td width=20%>✔</td>
+          </tr>
+          <tr id="tr2">
+            <td id="td2" width=20%><a href="formation_NODE.js.shtml">NODE.js</a></td >
+            <td width=20%></td>
+            <td width=20%></td>
+            <td width=20%>✔</td>
+            </tr>
+        </tbody>
+</table>
+	</div>
+<!--#include virtual="pieddepage.html" -->

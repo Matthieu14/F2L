@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="Styles/styles.css" rel="stylesheet" type="text/css" />
+  <title>Free to Learn:Mentions légales </title>
+
+</head>
+<body>
+   <!--#include virtual="entete.html" -->
+  <div id="contenu">
+  <h2>Mentions légales</h2>
+  <h3>Editeur:Free to learn</h3>
+  <p>
+  Capital:150000€
+  <br/>N°TVA:FR6355214450300018
+  <br/>N° de téléphone:0727346429
+  <br/>Email:free2learn@gmail.com
+  <br/>Directeur de la publication:Mr Gicosiou
+  </p>
+  <h3>Hébergeur</h3>
+  <div align="justify">
+  Isen
+  Adresse du siège social:20 Rue Cuirassé Bretagne, 29200 Brest
+  N° de téléphone:02 98 03 84 00
+</div>
+  <h3>Copyright et propriété intellectuelle</h3>
+  <p>
+  La structure générale, ainsi que les textes, images animées ou non, et sons composant ce site sont la propriété de la société Free to Learn.
+  Toute représentation totale ou partielle de ce site, par quelque procédé que ce soit sans autorisation expresse de la société Free to Learn, est interdite
+  et constituerait une contrefaçon sanctionnée par les articles L 335-2 et suivants du Code de la propriété intellectuelle.
+
+      Les marques de la société Free to Learn figurant sur le site sont des marques déposées. Toute reproduction totale ou partielle des ces marques sans autorisation
+    expresse de la société Idecom est donc prohibée.
+  </pre>
+  <h3>Informatique, Libertés et données personnelles</h3>
+    <pre>
+      Conformément à la loi du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, ce site web a fait l’objet d’une déclaration auprès de la
+    Commission Nationale Informatique et Libertés sous le n°161803.
+
+      Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent (art. 34 de la loi "Informatique et
+    Libertés" du 6 janvier 1978). Pour exercer ce droit, contactez free2learn@gmail.com ou nous écrire à notre siège social.
+  </pre>
+  <h3>Services payants</h3>
+    <pre>
+      Offres Pro:
+      Souscrivez à un abonnement à l'offre Pro en utilisant Paypal ce site est tout à fait sécuriser et est approuvez par notre équipe de proffesseur et certifié
+    par la sécurité informatique de Free to Learn.
+
+      Offres Premium:
+      Souscrivez à un abonnement à l'offre Premium en utilisant Paypal ce site est tout à fait sécuriser et est approuvez par notre équipe de proffesseur et certifié
+    par la sécurité informatique de Free to Learn.
+
+      SMS et appels surtaxé:
+      L'Utilisateur peut être amené à consulter les Services payants par envoi d'un sms à un numéro surtaxé ou à obtenir une clé d'accès aux Services payants par envoi
+    d'un sms à un numéro surtaxé.
+      Le Service payant via SMS+ est comptabilisé et débité sur la facture de l'Utilisateur émise par l'opérateur de télécommunications.
+      L'Utilisateur peut être amené à consulter les Services payants par appel téléphonique d'un numéro surtaxé ou à obtenir un code d'accès aux Services payants par
+    appel téléphonique d'un numéro surtaxé.
+      Le Service payant via un appel téléphonique d'un numéro surtaxé est comptabilisé et débité sur la facture de l'Utilisateur émise par l'opérateur de
+    télécommunications.
+      </pre>
+    </div>
+<!--#include virtual="pieddepage.html" -->
+</body>
+</html>
