@@ -1,0 +1,37 @@
+﻿<!--#include virtual="entete.html" -->
+    <form id="contact" method="post" action="mailto:" target="_blank" enctype="text/plain">
+    	<fieldset><legend>Vos coordonnées</legend>
+    		<p><label for="nom">Nom et Prénom : </label><input type="text" id="nom" name="nom" required/></p>
+        <p><label for="mail">Votre mail : </label><input type="text" id="mail" name="mail" onchange="email()" required/></p>
+
+        <p>Vous êtes : <select name="type" data-placeholder="Votre situation" class="chzn-select" tabindex="2" required>
+
+  <option value=""></option>
+  <option value="Chef">Chef d'entreprise</option>
+  <option value="salarie">Salarié</option>
+  <option value="autre">Autre</option>
+
+  </select></p>
+</fieldset>
+<fieldset><legend>Informations</legend>
+  <p>Le type d'offre(s) qui vous interesse(nt) chez nous :
+  		<input type="checkbox" id="Free" value="Free" /><label for="Free" >Free</label>
+  		<input type="checkbox" id="Pro"  value="Pro"  /><label for="Pro">Pro</label>
+  		<input type="checkbox" id="Prenium"  value="Prenium"  /><label for="PO">Prenium</label>
+    </p>
+  <p>Ce qui vous a fait connaitre l'entreprise :
+    <input type="radio" id="Collegue" name="eppa" value="Collegue" tabindex="3" required onchange="activeAutre()"/><label for="Collegue"> Un Collegue</label>
+    <input type="radio" id="Pub" name="eppa" value="Pub" tabindex="4"  onchange="activeAutre()"/><label for="Pub"> Une Pub</label>
+    <input type="radio" id="associe" name="eppa" value="associe" tabindex="5"  onchange="activeAutre()"/><label for="associe">Un Associé</label>
+    <input type="radio" id="Autre" name="eppa" value="autre" tabindex="6" onchange="activeAutre()" checked/><label for="Autre">Autre</label>
+      <br/> <label> Si autre précisez :</label> <input type="text" id="autre">
+    </p>
+  </fieldset>
+  <fieldset><legend>Votre Message</legend>
+    <p><label for="objet">Objet : </label><br/><input type="text" id="Objet" name="Objet" required></p>
+
+    <p><label for="message">Message : </label><br/><textarea id="message" name="message" required></textarea></p>
+    <input type="submit" value="Envoyer le formulaire !" onclick="javascript:verifier();"/>
+    	</fieldset>
+    </form>
+<!--#include virtual="pieddepage.html" -->
